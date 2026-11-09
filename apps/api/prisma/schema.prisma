@@ -1,0 +1,480 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  passwordHash  String?
+  googleSub     String?   @unique
+  firstName     String
+  lastName      String
+  locale        String    @default("ru")
+  theme         String    @default("light")
+  accent        String?
+  isActive      Boolean   @default(true)
+  customFields  Json      @default("{}")
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  roles         UserRole[]
+  refreshTokens RefreshToken[]
+  enrollments   Enrollment[]
+  notifications Notification[]
+  preferences   NotificationPreference[]
+  attempts      QuizAttempt[]
+  submissions   Submission[]
+  completions   ActivityCompletion[]
+  grades        Grade[]
+  certificates  Certificate[]
+  posts         DiscussionPost[]
+  files         FileAsset[]
+  groupMembers  GroupMember[]
+}
+
+model Role {
+  id          String           @id @default(cuid())
+  code        String           @unique
+  name        String
+  description String           @default("")
+  isSystem    Boolean          @default(false)
+  permissions RolePermission[]
+  users       UserRole[]
+}
+
+model Permission {
+  id          String           @id @default(cuid())
+  code        String           @unique
+  description String           @default("")
+  roles       RolePermission[]
+}
+
+model RolePermission {
+  roleId       String
+  permissionId String
+  role         Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission   Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@id([roleId, permissionId])
+}
+
+model UserRole {
+  userId String
+  roleId String
+  user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role   Role @relation(fields: [roleId], references: [id], onDelete: Cascade)
+
+  @@id([userId, roleId])
+}
+
+model RefreshToken {
+  id        String    @id @default(cuid())
+  userId    String
+  tokenHash String    @unique
+  expiresAt DateTime
+  revokedAt DateTime?
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model Course {
+  id                 String         @id @default(cuid())
+  title              String
+  slug               String         @unique
+  summary            String         @default("")
+  language           String         @default("ru")
+  status             String         @default("draft")
+  enrollmentMode     String         @default("manual")
+  passingGrade       Float          @default(0.6)
+  certificateEnabled Boolean        @default(true)
+  metadata           Json           @default("{}")
+  startDate          DateTime?
+  endDate            DateTime?
+  createdById        String
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
+  modules            Module[]
+  enrollments        Enrollment[]
+  groups             CourseGroup[]
+  activities         Activity[]
+  categories         QuestionCategory[]
+  certificates       Certificate[]
+  grades             Grade[]
+}
+
+model CourseTemplate {
+  id          String   @id @default(cuid())
+  name        String
+  description String   @default("")
+  blueprint   Json
+  createdById String
+  createdAt   DateTime @default(now())
+}
+
+model Module {
+  id           String     @id @default(cuid())
+  courseId     String
+  title        String
+  summary      String     @default("")
+  position     Int
+  availability Json?
+  course       Course     @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  activities   Activity[]
+
+  @@index([courseId, position])
+}
+
+model Activity {
+  id           String                @id @default(cuid())
+  courseId     String
+  moduleId     String
+  type         String
+  title        String
+  position     Int
+  availability Json?
+  completion   Json?
+  content      Json?
+  weight       Float                 @default(1)
+  openAt       DateTime?
+  dueAt        DateTime?
+  closeAt      DateTime?
+  version      Int                   @default(1)
+  course       Course                @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  module       Module                @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  versions     ContentVersion[]
+  quiz         Quiz?
+  assignment   Assignment?
+  posts        DiscussionPost[]
+  completions  ActivityCompletion[]
+  grades       Grade[]
+
+  @@index([moduleId, position])
+  @@index([courseId])
+  @@index([dueAt])
+}
+
+model ContentVersion {
+  id          String   @id @default(cuid())
+  activityId  String
+  version     Int
+  snapshot    Json
+  note        String   @default("")
+  createdById String
+  createdAt   DateTime @default(now())
+  activity    Activity @relation(fields: [activityId], references: [id], onDelete: Cascade)
+
+  @@unique([activityId, version])
+}
+
+model Enrollment {
+  id             String    @id @default(cuid())
+  userId         String
+  courseId       String
+  role           String    @default("student")
+  status         String    @default("active")
+  progress       Float     @default(0)
+  courseGrade    Float?
+  completedAt    DateTime?
+  lastActivityId String?
+  createdAt      DateTime  @default(now())
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course         Course    @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseId])
+  @@index([courseId])
+}
+
+model CourseGroup {
+  id       String        @id @default(cuid())
+  courseId String
+  name     String
+  course   Course        @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  members  GroupMember[]
+
+  @@unique([courseId, name])
+}
+
+model GroupMember {
+  groupId String
+  userId  String
+  group   CourseGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  user    User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([groupId, userId])
+}
+
+model QuestionCategory {
+  id        String             @id @default(cuid())
+  name      String
+  parentId  String?
+  courseId  String?
+  parent    QuestionCategory?  @relation("CategoryTree", fields: [parentId], references: [id])
+  children  QuestionCategory[] @relation("CategoryTree")
+  course    Course?            @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  questions Question[]
+
+  @@index([courseId])
+}
+
+model Question {
+  id              String             @id @default(cuid())
+  categoryId      String
+  type            String
+  name            String
+  text            String
+  defaultMark     Float              @default(1)
+  penalty         Float              @default(0)
+  generalFeedback String             @default("")
+  definition      Json
+  status          String             @default("ready")
+  version         Int                @default(1)
+  authorId        String
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+  category        QuestionCategory   @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  tags            QuestionTag[]
+  revisions       QuestionRevision[]
+  slots           QuizSlot[]
+
+  @@index([categoryId, type])
+}
+
+model QuestionRevision {
+  id         String   @id @default(cuid())
+  questionId String
+  version    Int
+  snapshot   Json
+  createdAt  DateTime @default(now())
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, version])
+}
+
+model Tag {
+  id        String        @id @default(cuid())
+  name      String        @unique
+  questions QuestionTag[]
+}
+
+model QuestionTag {
+  questionId String
+  tagId      String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  tag        Tag      @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, tagId])
+}
+
+model Quiz {
+  id               String        @id @default(cuid())
+  activityId       String        @unique
+  timeLimitSec     Int?
+  attemptsAllowed  Int           @default(0)
+  shuffleQuestions Boolean       @default(false)
+  shuffleAnswers   Boolean       @default(true)
+  gradeMethod      String        @default("highest")
+  feedbackMode     String        @default("deferred")
+  questionsPerPage Int           @default(1)
+  passFraction     Float         @default(0.6)
+  activity         Activity      @relation(fields: [activityId], references: [id], onDelete: Cascade)
+  slots            QuizSlot[]
+  attempts         QuizAttempt[]
+}
+
+model QuizSlot {
+  id         String    @id @default(cuid())
+  quizId     String
+  position   Int
+  questionId String?
+  maxMark    Float     @default(1)
+  randomRule Json?
+  quiz       Quiz      @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  question   Question? @relation(fields: [questionId], references: [id], onDelete: SetNull)
+
+  @@index([quizId, position])
+}
+
+model QuizAttempt {
+  id            String            @id @default(cuid())
+  quizId        String
+  userId        String
+  attemptNumber Int
+  state         String            @default("inprogress")
+  startedAt     DateTime          @default(now())
+  submittedAt   DateTime?
+  score         Float?
+  maxScore      Float?
+  quiz          Quiz              @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  user          User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questions     AttemptQuestion[]
+
+  @@unique([quizId, userId, attemptNumber])
+  @@index([userId])
+}
+
+model AttemptQuestion {
+  id            String      @id @default(cuid())
+  attemptId     String
+  questionId    String?
+  position      Int
+  maxMark       Float
+  type          String
+  prompt        String
+  definition    Json
+  dataset       Json?
+  response      Json?
+  score         Float?
+  needsManual   Boolean     @default(false)
+  feedback      String?
+  detail        Json?
+  wrongTries    Int         @default(0)
+  locked        Boolean     @default(false)
+  revealed      Boolean     @default(false)
+  graderComment String?
+  gradedById    String?
+  attempt       QuizAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+
+  @@index([attemptId, position])
+}
+
+model Assignment {
+  id           String       @id @default(cuid())
+  activityId   String       @unique
+  instructions String       @default("")
+  maxMark      Float        @default(100)
+  maxFiles     Int          @default(3)
+  activity     Activity     @relation(fields: [activityId], references: [id], onDelete: Cascade)
+  submissions  Submission[]
+}
+
+model Submission {
+  id           String     @id @default(cuid())
+  assignmentId String
+  userId       String
+  text         String     @default("")
+  fileIds      Json       @default("[]")
+  status       String     @default("submitted")
+  score        Float?
+  feedback     String     @default("")
+  gradedById   String?
+  submittedAt  DateTime   @default(now())
+  gradedAt     DateTime?
+  assignment   Assignment @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([assignmentId, userId])
+}
+
+model Grade {
+  id         String   @id @default(cuid())
+  userId     String
+  courseId   String
+  activityId String
+  score      Float
+  maxScore   Float
+  fraction   Float
+  status     String   @default("graded")
+  updatedAt  DateTime @updatedAt
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course     Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  activity   Activity @relation(fields: [activityId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, activityId])
+}
+
+model ActivityCompletion {
+  userId      String
+  activityId  String
+  state       String   @default("complete")
+  completedAt DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  activity    Activity @relation(fields: [activityId], references: [id], onDelete: Cascade)
+
+  @@id([userId, activityId])
+}
+
+model DiscussionPost {
+  id         String           @id @default(cuid())
+  activityId String
+  authorId   String
+  parentId   String?
+  body       String
+  createdAt  DateTime         @default(now())
+  updatedAt  DateTime         @updatedAt
+  activity   Activity         @relation(fields: [activityId], references: [id], onDelete: Cascade)
+  author     User             @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  parent     DiscussionPost?  @relation("Thread", fields: [parentId], references: [id])
+  replies    DiscussionPost[] @relation("Thread")
+
+  @@index([activityId, createdAt])
+}
+
+model Certificate {
+  id       String   @id @default(cuid())
+  userId   String
+  courseId String
+  code     String   @unique
+  issuedAt DateTime @default(now())
+  meta     Json     @default("{}")
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course   Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseId])
+}
+
+model Notification {
+  id        String    @id @default(cuid())
+  userId    String
+  type      String
+  title     String
+  body      String    @default("")
+  link      String?
+  readAt    DateTime?
+  createdAt DateTime  @default(now())
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
+
+model NotificationPreference {
+  userId String
+  event  String
+  inApp  Boolean @default(true)
+  email  Boolean @default(false)
+  user   User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, event])
+}
+
+model FileAsset {
+  id         String   @id @default(cuid())
+  ownerId    String
+  storageKey String
+  filename   String
+  mime       String
+  size       Int
+  createdAt  DateTime @default(now())
+  owner      User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+}
+
+model CustomFieldDefinition {
+  id        String  @id @default(cuid())
+  entity    String
+  key       String
+  label     String
+  fieldType String
+  options   Json    @default("[]")
+  required  Boolean @default(false)
+
+  @@unique([entity, key])
+}
+
+model Setting {
+  key   String @id
+  value Json
+}
