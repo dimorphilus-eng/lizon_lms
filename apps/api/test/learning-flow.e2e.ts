@@ -11,7 +11,7 @@ describe("learning flow", () => {
   let app: INestApplication;
 
   beforeAll(async () => {
-    app = await NestFactory.create(AppModule, { logger: ["error"] });
+    app = await NestFactory.create(AppModule, { logger: ["error"], bodyParser: false });
     configureApp(app);
     await app.init();
   });
@@ -40,7 +40,9 @@ describe("learning flow", () => {
       id: question.id,
       response: answerFor(question),
     }));
-    await student.put(`/api/attempts/${started.body.id}/answers`).set(header).send({ answers }).expect(200);
+    const saved = await student.put(`/api/attempts/${started.body.id}/answers`).set(header).send({ answers });
+    if (saved.status !== 200) console.log("save failed", saved.status, JSON.stringify(saved.body), "answers", JSON.stringify(answers).slice(0, 400));
+    expect(saved.status).toBe(200);
     const submitted = await student.post(`/api/attempts/${started.body.id}/submit`).set(header).expect(201);
     expect(submitted.body.state).toBe("pending_review");
     expect(submitted.body.score).toBe(8);
