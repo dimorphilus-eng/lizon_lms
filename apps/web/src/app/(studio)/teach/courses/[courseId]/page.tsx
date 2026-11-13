@@ -2,6 +2,7 @@
 
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import { QuizComposer } from "@/components/quiz-composer";
 import { api } from "@/lib/api";
 import { useT } from "@/lib/i18n";
 import { RequirePermission } from "@/lib/session";
@@ -59,8 +60,6 @@ function ActivityEditor({ id, courseId, onChange }: { id: string; courseId: stri
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [videoUrl, setVideoUrl] = useState("");
-  const [questions, setQuestions] = useState<{ id: string; name: string }[]>([]);
-  const [questionId, setQuestionId] = useState("");
   useEffect(() => {
     api<typeof payload>(`/api/activities/${id}`).then((data) => {
       setPayload(data);
@@ -68,7 +67,6 @@ function ActivityEditor({ id, courseId, onChange }: { id: string; courseId: stri
       setBody(data?.activity.content?.body || "");
       setVideoUrl(data?.activity.content?.videoUrl || "");
     });
-    api<{ items: { id: string; name: string }[] }>(`/api/questions?courseId=${courseId}&take=100`).then((data) => setQuestions(data.items)).catch(() => undefined);
   }, [id, courseId]);
   if (!payload) return null;
   const save = () => api(`/api/activities/${id}`, { method: "PATCH", body: JSON.stringify({ title, content: { ...(payload.activity.content || {}), format: "markdown", body, videoUrl } }) }).then(onChange);
@@ -79,20 +77,7 @@ function ActivityEditor({ id, courseId, onChange }: { id: string; courseId: stri
       <textarea value={body} onChange={(event) => setBody(event.target.value)} />
       <input value={videoUrl} onChange={(event) => setVideoUrl(event.target.value)} placeholder="https:// video" />
       <button className="primary" type="button" onClick={save}>{t("Сохранить версию", "Save version")}</button>
-      {payload.quiz && (
-        <form className="row" onSubmit={(event) => {
-          event.preventDefault();
-          const kept = (payload.quiz?.slots ?? []).map((slot) => ({ questionId: slot.questionId, maxMark: slot.maxMark, randomRule: slot.randomRule }));
-          void api(`/api/activities/${id}/quiz`, { method: "PUT", body: JSON.stringify({ slots: [...kept, { questionId, maxMark: 1 }] }) }).then(() => { setQuestionId(""); void api<typeof payload>(`/api/activities/${id}`).then(setPayload); });
-        }}>
-          <select value={questionId} onChange={(event) => setQuestionId(event.target.value)}>
-            <option value="">{t("Добавить вопрос из банка", "Add a bank question")}</option>
-            {questions.map((question) => <option key={question.id} value={question.id}>{question.name}</option>)}
-          </select>
-          <button className="tiny" type="submit">+</button>
-        </form>
-      )}
-      <p className="muted">{t("Вопрос добавляется к текущим слотам.", "The question is appended to the current slots.")} {payload.quiz?.slots?.length ?? 0}</p>
+      {payload.quiz && <QuizComposer activityId={id} courseId={courseId} onCourseChange={onChange} />}
     </div>
   );
 }

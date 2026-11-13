@@ -83,7 +83,7 @@ export class QuizzesService {
     const create: Prisma.AttemptQuestionCreateWithoutAttemptInput[] = [];
     const used = new Set<string>();
     for (const slot of slots) {
-      const questions = slot.question ? [slot.question] : await this.pickRandom(slot.randomRule as RandomRule | null, used);
+      const questions = slot.question ? [slot.question] : await this.pickRandom(slot.randomRule as RandomRule | null, used, quiz.activity.courseId);
       for (const question of questions) {
         if (!question) continue;
         used.add(question.id);
@@ -105,6 +105,46 @@ export class QuizzesService {
       data: { quizId, userId: actor.id, attemptNumber: finished + 1, questions: { create } },
     });
     return this.present(actor, attempt.id);
+  }
+
+  /** Один розыгрыш слотов без записи попытки: фиксированные вопросы остаются, случайные берутся из банка. */
+  async preview(actor: Actor, activityId: string) {
+    const quiz = await this.quizForTeach(actor, activityId);
+    return this.draw(quiz, new Set(), actor.locale === "en" ? "en" : "ru");
+  }
+
+  /**
+   * Собирает несколько готовых работ. Случайный слот разыгрывается один раз и сохраняется
+   * как обычный вопрос, чтобы вариант можно было просмотреть и выдать группе.
+   * distinct не повторяет уже выпавшие случайные вопросы в следующих вариантах.
+   */
+  async buildVariants(actor: Actor, activityId: string, input: { count: number; title?: string; distinct?: boolean }) {
+    const quiz = await this.quizForTeach(actor, activityId);
+    const title = (input.title || quiz.activity.title).trim();
+    const shared = new Set<string>();
+    const warnings: string[] = [];
+    const variants: { activityId: string; quizId: string; title: string; questions: { id: string; name: string; type: string; maxMark: number }[] }[] = [];
+    for (let number = 1; number <= input.count; number++) {
+      const drawn = await this.draw(quiz, input.distinct ? shared : new Set(), actor.locale === "en" ? "en" : "ru");
+      warnings.push(...drawn.warnings.map((warning) => `${number}: ${warning}`));
+      if (!drawn.questions.length) {
+        warnings.push(tr(actor.locale, `${number}: в банке не осталось вопросов для варианта.`, `${number}: the bank has no questions left for this variant.`));
+        continue;
+      }
+      if (input.distinct) {
+        for (const question of drawn.questions) if (question.source === "random") shared.add(question.id);
+      }
+      const variantTitle = `${title} — ${tr(actor.locale, "вариант", "variant")} ${number}`;
+      const created = await this.freezeVariant(quiz, variantTitle, drawn.questions);
+      variants.push({ activityId: created.activityId, quizId: created.quizId, title: variantTitle, questions: drawn.questions.map(({ id, name, type, maxMark }) => ({ id, name, type, maxMark })) });
+    }
+    return { variants, warnings };
+  }
+
+  async poolSize(actor: Actor, input: RandomRule & { courseId?: string }) {
+    if (!hasPermission(actor, "questions.manage") && !hasPermission(actor, "content.author")) this.policy.forbid(actor);
+    const total = await this.prisma.question.count({ where: this.poolWhere(input, new Set(), input.courseId) });
+    return { total };
   }
 
   async myAttempts(actor: Actor, quizId: string) {
@@ -359,18 +399,95 @@ export class QuizzesService {
     };
   }
 
-  private async pickRandom(rule: RandomRule | null, used: Set<string>) {
+  private async pickRandom(rule: RandomRule | null, used: Set<string>, courseId: string) {
     if (!rule?.count) return [];
-    const questions = await this.prisma.question.findMany({
-      where: {
-        status: "ready",
-        id: { notIn: [...used] },
-        categoryId: rule.categoryId,
-        type: rule.types?.length ? { in: rule.types } : undefined,
-        tags: rule.tags?.length ? { some: { tag: { name: { in: rule.tags } } } } : undefined,
+    const questions = await this.prisma.question.findMany({ where: this.poolWhere(rule, used, courseId) });
+    return shuffle(questions).slice(0, rule.count);
+  }
+
+  private poolWhere(rule: RandomRule, used: Set<string>, courseId?: string): Prisma.QuestionWhereInput {
+    return {
+      status: "ready",
+      id: used.size ? { notIn: [...used] } : undefined,
+      categoryId: rule.categoryId || undefined,
+      category: rule.categoryId || !courseId ? undefined : { OR: [{ courseId }, { courseId: null }] },
+      type: rule.types?.length ? { in: rule.types } : undefined,
+      tags: rule.tags?.length ? { some: { tag: { name: { in: rule.tags } } } } : undefined,
+    };
+  }
+
+  private async quizForTeach(actor: Actor, activityId: string) {
+    await this.quizByActivity(actor, activityId, true);
+    const quiz = await this.prisma.quiz.findUnique({
+      where: { activityId },
+      include: { activity: true, slots: { orderBy: { position: "asc" }, include: { question: true } } },
+    });
+    if (!quiz) throw new BadRequestException({ message: "Тест не найден.", code: "not_found" });
+    return quiz;
+  }
+
+  private async draw(
+    quiz: Quiz & { activity: { courseId: string }; slots: { questionId: string | null; maxMark: number; randomRule: Prisma.JsonValue; question: { id: string; name: string; type: string; text: string } | null }[] },
+    used: Set<string>,
+    locale: "ru" | "en",
+  ) {
+    const questions: { id: string; name: string; type: string; text: string; maxMark: number; source: "fixed" | "random" }[] = [];
+    const warnings: string[] = [];
+    for (const [index, slot] of quiz.slots.entries()) {
+      if (slot.question) {
+        used.add(slot.question.id);
+        questions.push({ id: slot.question.id, name: slot.question.name, type: slot.question.type, text: slot.question.text, maxMark: slot.maxMark, source: "fixed" });
+        continue;
+      }
+      const rule = slot.randomRule as RandomRule | null;
+      const requested = rule?.count ?? 0;
+      const picked = await this.pickRandom(rule, used, quiz.activity.courseId);
+      if (picked.length < requested) {
+        warnings.push(locale === "en"
+          ? `Slot ${index + 1}: the bank has ${picked.length} of ${requested}.`
+          : `Слот ${index + 1}: в банке ${picked.length} из ${requested}.`);
+      }
+      for (const question of picked) {
+        used.add(question.id);
+        questions.push({ id: question.id, name: question.name, type: question.type, text: question.text, maxMark: slot.maxMark, source: "random" });
+      }
+    }
+    return { questions, warnings };
+  }
+
+  private async freezeVariant(
+    quiz: Quiz & { activity: { courseId: string; moduleId: string } },
+    title: string,
+    questions: { id: string; maxMark: number }[],
+  ) {
+    const last = await this.prisma.activity.findFirst({ where: { moduleId: quiz.activity.moduleId }, orderBy: { position: "desc" } });
+    const activity = await this.prisma.activity.create({
+      data: {
+        courseId: quiz.activity.courseId,
+        moduleId: quiz.activity.moduleId,
+        type: "quiz",
+        title,
+        position: (last?.position ?? -1) + 1,
+        weight: 1,
       },
     });
-    return shuffle(questions).slice(0, rule.count);
+    const created = await this.prisma.quiz.create({
+      data: {
+        activityId: activity.id,
+        timeLimitSec: quiz.timeLimitSec,
+        attemptsAllowed: quiz.attemptsAllowed,
+        shuffleQuestions: quiz.shuffleQuestions,
+        shuffleAnswers: quiz.shuffleAnswers,
+        gradeMethod: quiz.gradeMethod,
+        feedbackMode: quiz.feedbackMode,
+        questionsPerPage: quiz.questionsPerPage,
+        passFraction: quiz.passFraction,
+        slots: {
+          create: questions.map((question, position) => ({ position, questionId: question.id, maxMark: question.maxMark })),
+        },
+      },
+    });
+    return { activityId: activity.id, quizId: created.id };
   }
 
   private async penaltyOf(questionId: string | null) {

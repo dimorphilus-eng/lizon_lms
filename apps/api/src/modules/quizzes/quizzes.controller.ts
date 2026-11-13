@@ -28,6 +28,37 @@ export class QuizzesController {
     return this.quizzes.saveSettings(actor, activityId, body);
   }
 
+  @Post("activities/:activityId/quiz/preview")
+  preview(@CurrentUser() actor: Actor, @Param("activityId") activityId: string) {
+    return this.quizzes.preview(actor, activityId);
+  }
+
+  @Post("activities/:activityId/quiz/variants")
+  variants(
+    @CurrentUser() actor: Actor,
+    @Param("activityId") activityId: string,
+    @Body(new ZodPipe(z.object({
+      count: z.number().int().min(1).max(20),
+      title: z.string().min(1).max(140).optional(),
+      distinct: z.boolean().optional(),
+    }))) body: { count: number; title?: string; distinct?: boolean },
+  ) {
+    return this.quizzes.buildVariants(actor, activityId, body);
+  }
+
+  @Post("question-pool")
+  pool(
+    @CurrentUser() actor: Actor,
+    @Body(new ZodPipe(z.object({
+      categoryId: z.string().optional(),
+      tags: z.array(z.string()).optional(),
+      types: z.array(z.string()).optional(),
+      courseId: z.string().optional(),
+    }))) body: { categoryId?: string; tags?: string[]; types?: string[]; courseId?: string },
+  ) {
+    return this.quizzes.poolSize(actor, body);
+  }
+
   @Post("quizzes/:quizId/attempts")
   start(@CurrentUser() actor: Actor, @Param("quizId") quizId: string) {
     return this.quizzes.start(actor, quizId);
