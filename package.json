@@ -1,0 +1,21 @@
+{
+  "name": "lizon",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Lizon — гибкая LMS с ролями, курсами и банком вопросов",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @lizon/shared && npm run build -w @lizon/api && npm run build -w @lizon/web",
+    "test": "npm run test -w @lizon/shared && npm run test -w @lizon/api",
+    "dev": "npm run build -w @lizon/shared && npm run dev -w @lizon/api & npm run dev -w @lizon/web",
+    "db:generate": "npm run db:generate -w @lizon/api",
+    "db:migrate": "npm run db:migrate -w @lizon/api",
+    "db:seed": "npm run db:seed -w @lizon/api"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
