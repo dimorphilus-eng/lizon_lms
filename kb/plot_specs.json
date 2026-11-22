@@ -1,0 +1,6279 @@
+[
+ {
+  "kind": "pie",
+  "xlabel": "",
+  "ylabel": "",
+  "legend": [
+   "жиры — 46 %",
+   "белки — 22 %",
+   "углеводы — 16 %",
+   "вода — 8 %",
+   "прочие вещества — 8 %"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-22-003",
+  "file": "figures/DS-22-003.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "pie",
+  "xlabel": "",
+  "ylabel": "",
+  "legend": [
+   "крахмал — 64 %",
+   "белки — 14 %",
+   "вода — 14 %",
+   "прочие вещества — 8 %"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-22-004",
+  "file": "figures/DS-22-004.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Выход пигмента, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-23-005",
+  "file": "figures/DS-23-005.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Выход пигмента, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-23-006",
+  "file": "figures/DS-23-006.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Концентрация сахарозы, моль/л",
+  "ylabel": "Изменение массы, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-23-007",
+  "file": "figures/DS-23-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Концентрация сахарозы, моль/л",
+  "ylabel": "Изменение массы, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-23-008",
+  "file": "figures/DS-23-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Концентрация сахарозы, моль/л",
+  "ylabel": "Изменение массы, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-23-009",
+  "file": "figures/DS-23-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Площадь поверхности, усл. ед.",
+  "ylabel": "Скорость брожения, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-23-010",
+  "file": "figures/DS-23-010.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Средний диаметр клетки, мкм",
+  "ylabel": "Потребление кислорода, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-23-011",
+  "file": "figures/DS-23-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Содержание воды, %",
+  "ylabel": "Потеря массы, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-23-012",
+  "file": "figures/DS-23-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Число хлоропластов в клетке, шт.",
+  "ylabel": "Интенсивность фотосинтеза, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-23-013",
+  "file": "figures/DS-23-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Объём CO₂, мл",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-036",
+  "file": "figures/DS-24-036.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Объём CO₂, мл",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-037",
+  "file": "figures/DS-24-037.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Интенсивность фотосинтеза, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-038",
+  "file": "figures/DS-24-038.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Интенсивность фотосинтеза, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-039",
+  "file": "figures/DS-24-039.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Концентрация CO₂, %",
+  "ylabel": "Интенсивность фотосинтеза, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-040",
+  "file": "figures/DS-24-040.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Концентрация CO₂, %",
+  "ylabel": "Интенсивность фотосинтеза, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-041",
+  "file": "figures/DS-24-041.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Интенсивность фотосинтеза, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-042",
+  "file": "figures/DS-24-042.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Концентрация субстрата, г/л",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-043",
+  "file": "figures/DS-24-043.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "PH",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-044",
+  "file": "figures/DS-24-044.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-045",
+  "file": "figures/DS-24-045.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Концентрация субстрата, ммоль/л",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-046",
+  "file": "figures/DS-24-046.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-047",
+  "file": "figures/DS-24-047.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-048",
+  "file": "figures/DS-24-048.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "PH",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-049",
+  "file": "figures/DS-24-049.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Концентрация субстрата, г/л",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-050",
+  "file": "figures/DS-24-050.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, сут",
+  "ylabel": "Численность, млн клеток/мл",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-051",
+  "file": "figures/DS-24-051.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, сут",
+  "ylabel": "Численность, млн клеток/мл",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-24-052",
+  "file": "figures/DS-24-052.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Участок спектра",
+  "ylabel": "Интенсивность фотосинтеза, % от максимума пробы",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-053",
+  "file": "figures/DS-24-053.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Интенсивность фотосинтеза, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-054",
+  "file": "figures/DS-24-054.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Участок спектра",
+  "ylabel": "Интенсивность фотосинтеза, % от максимума пробы",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-055",
+  "file": "figures/DS-24-055.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Участок спектра",
+  "ylabel": "Интенсивность фотосинтеза, % от максимума пробы",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-056",
+  "file": "figures/DS-24-056.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Участок спектра",
+  "ylabel": "Интенсивность фотосинтеза, % от максимума пробы",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-057",
+  "file": "figures/DS-24-057.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Участок спектра",
+  "ylabel": "Интенсивность фотосинтеза, % от максимума пробы",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-058",
+  "file": "figures/DS-24-058.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Интенсивность фотосинтеза, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-059",
+  "file": "figures/DS-24-059.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура, °C",
+  "ylabel": "Поглощение кислорода, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-060",
+  "file": "figures/DS-24-060.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура, °C",
+  "ylabel": "Поглощение кислорода, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-061",
+  "file": "figures/DS-24-061.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура, °C",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-062",
+  "file": "figures/DS-24-062.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура, °C",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-063",
+  "file": "figures/DS-24-063.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура, °C",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-064",
+  "file": "figures/DS-24-064.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "PH",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-065",
+  "file": "figures/DS-24-065.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура, °C",
+  "ylabel": "Скорость реакции, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-24-066",
+  "file": "figures/DS-24-066.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "pH",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 7.0,
+    "cy": 40,
+    "rx": 5.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 6.8,
+    "cy": 40,
+    "rx": 3.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 6.9,
+    "cy": 40,
+    "rx": 1.8,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-24-067",
+  "file": "figures/DS-24-067.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "pH",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 7.0,
+    "cy": 35,
+    "rx": 5.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 6.8,
+    "cy": 35,
+    "rx": 3.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 6.9,
+    "cy": 35,
+    "rx": 1.8,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-24-068",
+  "file": "figures/DS-24-068.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "pH",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 2.5,
+    "cy": 40,
+    "rx": 2.2,
+    "ry": 12.0
+   },
+   {
+    "level": 50,
+    "cx": 2.41,
+    "cy": 40,
+    "rx": 1.32,
+    "ry": 7.2
+   },
+   {
+    "level": 80,
+    "cx": 2.46,
+    "cy": 40,
+    "rx": 0.79,
+    "ry": 4.32
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-24-069",
+  "file": "figures/DS-24-069.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "pH",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 8.0,
+    "cy": 40,
+    "rx": 5.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 7.8,
+    "cy": 40,
+    "rx": 3.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 7.9,
+    "cy": 40,
+    "rx": 1.8,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-24-070",
+  "file": "figures/DS-24-070.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 22,
+    "rx": 36.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 44.56,
+    "cy": 22,
+    "rx": 21.6,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 45.28,
+    "cy": 22,
+    "rx": 12.96,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-24-071",
+  "file": "figures/DS-24-071.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 54.0,
+    "cy": 20,
+    "rx": 40.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 52.4,
+    "cy": 20,
+    "rx": 24.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 53.2,
+    "cy": 20,
+    "rx": 14.4,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-24-072",
+  "file": "figures/DS-24-072.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-24-073",
+  "file": "figures/DS-24-073.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 18,
+    "rx": 42.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 48.32,
+    "cy": 18,
+    "rx": 25.2,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 49.16,
+    "cy": 18,
+    "rx": 15.12,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-24-074",
+  "file": "figures/DS-24-074.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 18,
+    "rx": 36.0,
+    "ry": 14.0
+   },
+   {
+    "level": 50,
+    "cx": 44.56,
+    "cy": 18,
+    "rx": 21.6,
+    "ry": 8.4
+   },
+   {
+    "level": 80,
+    "cx": 45.28,
+    "cy": 18,
+    "rx": 12.96,
+    "ry": 5.04
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-24-075",
+  "file": "figures/DS-24-075.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 20,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 20,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 20,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-24-076",
+  "file": "figures/DS-24-076.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время после стимуляции, ч",
+  "ylabel": "Митотический индекс, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-26-002",
+  "file": "figures/DS-26-002.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время после стимуляции, ч",
+  "ylabel": "Митотический индекс, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-26-003",
+  "file": "figures/DS-26-003.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время сушки, ч",
+  "ylabel": "Доля воды, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-42-007",
+  "file": "figures/DS-42-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время сушки, ч",
+  "ylabel": "Доля воды, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-42-008",
+  "file": "figures/DS-42-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Толщина пластинки, мкм",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-42-009",
+  "file": "figures/DS-42-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Толщина пластинки, мкм",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-42-010",
+  "file": "figures/DS-42-010.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год, год",
+  "ylabel": "Число слоёв пробки, шт.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-42-011",
+  "file": "figures/DS-42-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Группа",
+  "ylabel": "Вода, %",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-42-012",
+  "file": "figures/DS-42-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Всхожесть, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-017",
+  "file": "figures/DS-43-017.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Всхожесть, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-018",
+  "file": "figures/DS-43-018.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, сут",
+  "ylabel": "Высота побега, см",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-019",
+  "file": "figures/DS-43-019.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, сут",
+  "ylabel": "Высота побега, см",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-020",
+  "file": "figures/DS-43-020.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Влажность воздуха, %",
+  "ylabel": "Интенсивность транспирации, мг/(дм²·ч)",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-021",
+  "file": "figures/DS-43-021.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Влажность воздуха, %",
+  "ylabel": "Интенсивность транспирации, мг/(дм²·ч)",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-022",
+  "file": "figures/DS-43-022.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Интенсивность транспирации, мг/(дм²·ч)",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-023",
+  "file": "figures/DS-43-023.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Интенсивность транспирации, мг/(дм²·ч)",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-024",
+  "file": "figures/DS-43-024.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Концентрация ауксина, усл. ед.",
+  "ylabel": "Угол изгиба, градусы",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-025",
+  "file": "figures/DS-43-025.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура, °C",
+  "ylabel": "Всхожесть, %",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-43-026",
+  "file": "figures/DS-43-026.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Время, сут",
+  "ylabel": "Высота побега, см",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-43-027",
+  "file": "figures/DS-43-027.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Интенсивность транспирации, мг/(дм²·ч)",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-43-028",
+  "file": "figures/DS-43-028.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Влажность воздуха, %",
+  "ylabel": "Интенсивность транспирации, мг/(дм²·ч)",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-43-029",
+  "file": "figures/DS-43-029.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Концентрация ауксина, усл. ед.",
+  "ylabel": "Угол изгиба, градусы",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-43-030",
+  "file": "figures/DS-43-030.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 22,
+    "rx": 40.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 22,
+    "rx": 24.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 22,
+    "rx": 14.4,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-43-031",
+  "file": "figures/DS-43-031.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 20,
+    "rx": 42.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 44.32,
+    "cy": 20,
+    "rx": 25.2,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 45.16,
+    "cy": 20,
+    "rx": 15.12,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-43-032",
+  "file": "figures/DS-43-032.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 20,
+    "rx": 36.0,
+    "ry": 14.0
+   },
+   {
+    "level": 50,
+    "cx": 48.56,
+    "cy": 20,
+    "rx": 21.6,
+    "ry": 8.4
+   },
+   {
+    "level": 80,
+    "cx": 49.28,
+    "cy": 20,
+    "rx": 12.96,
+    "ry": 5.04
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-43-033",
+  "file": "figures/DS-43-033.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 18,
+    "rx": 42.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 48.32,
+    "cy": 18,
+    "rx": 25.2,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 49.16,
+    "cy": 18,
+    "rx": 15.12,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-43-034",
+  "file": "figures/DS-43-034.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 20,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 20,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 20,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-43-035",
+  "file": "figures/DS-43-035.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 18,
+    "rx": 36.0,
+    "ry": 14.0
+   },
+   {
+    "level": 50,
+    "cx": 44.56,
+    "cy": 18,
+    "rx": 21.6,
+    "ry": 8.4
+   },
+   {
+    "level": 80,
+    "cx": 45.28,
+    "cy": 18,
+    "rx": 12.96,
+    "ry": 5.04
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-43-036",
+  "file": "figures/DS-43-036.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 22,
+    "rx": 36.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 44.56,
+    "cy": 22,
+    "rx": 21.6,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 45.28,
+    "cy": 22,
+    "rx": 12.96,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-43-037",
+  "file": "figures/DS-43-037.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 54.0,
+    "cy": 20,
+    "rx": 36.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 52.56,
+    "cy": 20,
+    "rx": 21.6,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 53.28,
+    "cy": 20,
+    "rx": 12.96,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-43-038",
+  "file": "figures/DS-43-038.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 54.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 52.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 53.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-43-039",
+  "file": "figures/DS-43-039.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 22,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 44.4,
+    "cy": 22,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 45.2,
+    "cy": 22,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-43-040",
+  "file": "figures/DS-43-040.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Длина корня, см",
+  "ylabel": "Масса проростка, мг",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-041",
+  "file": "figures/DS-43-041.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Площадь листа, см²",
+  "ylabel": "Транспирация, мг/ч",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-042",
+  "file": "figures/DS-43-042.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Число семян, шт.",
+  "ylabel": "Средняя масса семени, мг",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-43-043",
+  "file": "figures/DS-43-043.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "pie",
+  "xlabel": "",
+  "ylabel": "",
+  "legend": [
+   "корни — 18 %",
+   "соломина — 42 %",
+   "листья — 24 %",
+   "колос — 16 %"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-43-044",
+  "file": "figures/DS-43-044.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "pie",
+  "xlabel": "",
+  "ylabel": "",
+  "legend": [
+   "корни — 28 %",
+   "стебель — 22 %",
+   "листья — 34 %",
+   "семена — 16 %"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-43-045",
+  "file": "figures/DS-43-045.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Нагрузка, г",
+  "ylabel": "Амплитуда, мм",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-44-006",
+  "file": "figures/DS-44-006.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура раствора, °C",
+  "ylabel": "Число сокращений, раз/мин",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-44-007",
+  "file": "figures/DS-44-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура раствора, °C",
+  "ylabel": "Число сокращений, раз/мин",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-44-008",
+  "file": "figures/DS-44-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Срок развития, сут",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-45-010",
+  "file": "figures/DS-45-010.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Срок развития, сут",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-45-011",
+  "file": "figures/DS-45-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура воды, °C",
+  "ylabel": "Частота движений жаберных крышек, раз/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-45-012",
+  "file": "figures/DS-45-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура воды, °C",
+  "ylabel": "Частота сердечных сокращений, уд/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-45-013",
+  "file": "figures/DS-45-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура воды, °C",
+  "ylabel": "Частота сокращений сердца, уд/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-45-014",
+  "file": "figures/DS-45-014.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура воды, °C",
+  "ylabel": "Частота сокращений сердца, уд/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-45-015",
+  "file": "figures/DS-45-015.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура воды, °C",
+  "ylabel": "Частота сокращений сердца, уд/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-45-016",
+  "file": "figures/DS-45-016.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Группа",
+  "ylabel": "Относительная длина кишечника, раз",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-45-017",
+  "file": "figures/DS-45-017.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Группа",
+  "ylabel": "Индекс поверхности, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-45-018",
+  "file": "figures/DS-45-018.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Группа",
+  "ylabel": "Частота дыхания, раз/мин",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-45-019",
+  "file": "figures/DS-45-019.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура воды, °C",
+  "ylabel": "Частота дыхательных движений, раз/мин",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-45-020",
+  "file": "figures/DS-45-020.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Температура тела, °C",
+  "ylabel": "Частота дыхания, раз/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-45-021",
+  "file": "figures/DS-45-021.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Скорость проведения, м/с",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-46-007",
+  "file": "figures/DS-46-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура, °C",
+  "ylabel": "Скорость проведения, м/с",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-46-008",
+  "file": "figures/DS-46-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "День тренировки, сут",
+  "ylabel": "Латентный период, мс",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-46-009",
+  "file": "figures/DS-46-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "День тренировки, сут",
+  "ylabel": "Латентный период, мс",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-46-010",
+  "file": "figures/DS-46-010.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Длительность бодрствования, ч",
+  "ylabel": "Время реакции, мс",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-51-006",
+  "file": "figures/DS-51-006.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Длительность бодрствования, ч",
+  "ylabel": "Время реакции, мс",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-51-007",
+  "file": "figures/DS-51-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, мин",
+  "ylabel": "Концентрация глюкозы, ммоль/л",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-51-008",
+  "file": "figures/DS-51-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, мин",
+  "ylabel": "Концентрация глюкозы, ммоль/л",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-51-009",
+  "file": "figures/DS-51-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, мин",
+  "ylabel": "Концентрация глюкозы, ммоль/л",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-51-010",
+  "file": "figures/DS-51-010.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, мин",
+  "ylabel": "Концентрация инсулина, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-51-011",
+  "file": "figures/DS-51-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Длительность бодрствования, ч",
+  "ylabel": "Время реакции, мс",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-51-012",
+  "file": "figures/DS-51-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Время, мин",
+  "ylabel": "Концентрация глюкозы, ммоль/л",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-51-013",
+  "file": "figures/DS-51-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Время, мин",
+  "ylabel": "Концентрация инсулина, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-51-014",
+  "file": "figures/DS-51-014.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 18,
+    "rx": 42.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 48.32,
+    "cy": 18,
+    "rx": 25.2,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 49.16,
+    "cy": 18,
+    "rx": 15.12,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-51-015",
+  "file": "figures/DS-51-015.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 20,
+    "rx": 42.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 44.32,
+    "cy": 20,
+    "rx": 25.2,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 45.16,
+    "cy": 20,
+    "rx": 15.12,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-51-016",
+  "file": "figures/DS-51-016.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-51-017",
+  "file": "figures/DS-51-017.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 22,
+    "rx": 36.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 44.56,
+    "cy": 22,
+    "rx": 21.6,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 45.28,
+    "cy": 22,
+    "rx": 12.96,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-51-018",
+  "file": "figures/DS-51-018.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 44.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 45.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-51-019",
+  "file": "figures/DS-51-019.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 54.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 52.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 53.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-51-020",
+  "file": "figures/DS-51-020.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 22,
+    "rx": 40.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 22,
+    "rx": 24.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 22,
+    "rx": 14.4,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-51-021",
+  "file": "figures/DS-51-021.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 20,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 20,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 20,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-51-022",
+  "file": "figures/DS-51-022.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 18,
+    "rx": 36.0,
+    "ry": 14.0
+   },
+   {
+    "level": 50,
+    "cx": 44.56,
+    "cy": 18,
+    "rx": 21.6,
+    "ry": 8.4
+   },
+   {
+    "level": 80,
+    "cx": 45.28,
+    "cy": 18,
+    "rx": 12.96,
+    "ry": 5.04
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-51-023",
+  "file": "figures/DS-51-023.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 54.0,
+    "cy": 20,
+    "rx": 36.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 52.56,
+    "cy": 20,
+    "rx": 21.6,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 53.28,
+    "cy": 20,
+    "rx": 12.96,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-51-024",
+  "file": "figures/DS-51-024.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Возраст, лет",
+  "ylabel": "Время реакции, мс",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-51-025",
+  "file": "figures/DS-51-025.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "День после вакцинации, сут",
+  "ylabel": "Титр антител, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-52-011",
+  "file": "figures/DS-52-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "День после вакцинации, сут",
+  "ylabel": "Титр антител, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-52-012",
+  "file": "figures/DS-52-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "День после вакцинации, сут",
+  "ylabel": "Титр антител, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-52-013",
+  "file": "figures/DS-52-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, мин",
+  "ylabel": "Артериальное давление, мм рт. ст.",
+  "legend": [
+   "Систолическое",
+   "Диастолическое"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-53-011",
+  "file": "figures/DS-53-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, мин",
+  "ylabel": "Частота сердечных сокращений, уд/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-53-012",
+  "file": "figures/DS-53-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, мин",
+  "ylabel": "Частота сердечных сокращений, уд/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-53-013",
+  "file": "figures/DS-53-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, мин",
+  "ylabel": "Частота сердечных сокращений, уд/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-53-014",
+  "file": "figures/DS-53-014.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Время, мин",
+  "ylabel": "Артериальное давление, мм рт. ст.",
+  "legend": [
+   "Систолическое",
+   "Диастолическое"
+  ],
+  "hatches": [
+   "",
+   "///"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-53-015",
+  "file": "figures/DS-53-015.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Время, мин",
+  "ylabel": "Частота сердечных сокращений, уд/мин",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-53-016",
+  "file": "figures/DS-53-016.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Время, мин",
+  "ylabel": "Частота сердечных сокращений, уд/мин",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-53-017",
+  "file": "figures/DS-53-017.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Нагрузка, Вт",
+  "ylabel": "Частота сердечных сокращений, уд/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-53-018",
+  "file": "figures/DS-53-018.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "pie",
+  "xlabel": "",
+  "ylabel": "",
+  "legend": [
+   "нейтрофилы — 60 %",
+   "лимфоциты — 25 %",
+   "моноциты — 8 %",
+   "эозинофилы — 4 %",
+   "базофилы — 3 %"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-53-019",
+  "file": "figures/DS-53-019.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Минуты пробы",
+  "ylabel": "Глубина вдоха, л",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-54-007",
+  "file": "figures/DS-54-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, мин",
+  "ylabel": "Частота дыхания, раз/мин",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-54-008",
+  "file": "figures/DS-54-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Время, мин",
+  "ylabel": "Частота дыхания, раз/мин",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-54-009",
+  "file": "figures/DS-54-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Время, мин",
+  "ylabel": "Частота дыхания, раз/мин",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-54-010",
+  "file": "figures/DS-54-010.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Рост, см",
+  "ylabel": "Жизненная ёмкость лёгких, л",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-54-011",
+  "file": "figures/DS-54-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "PH",
+  "ylabel": "Активность фермента, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-55-007",
+  "file": "figures/DS-55-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "PH",
+  "ylabel": "Активность фермента, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-55-008",
+  "file": "figures/DS-55-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "PH",
+  "ylabel": "Активность фермента, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-55-009",
+  "file": "figures/DS-55-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "PH",
+  "ylabel": "Активность фермента, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-55-010",
+  "file": "figures/DS-55-010.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Температура воздуха, °C",
+  "ylabel": "Потеря воды, мл",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-56-004",
+  "file": "figures/DS-56-004.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Выпитая вода",
+  "ylabel": "Объём мочи, л",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-56-005",
+  "file": "figures/DS-56-005.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Выпитая вода",
+  "ylabel": "Объём мочи, л",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-56-006",
+  "file": "figures/DS-56-006.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Выпитая вода",
+  "ylabel": "Объём мочи, л",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-56-007",
+  "file": "figures/DS-56-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Выпитая вода",
+  "ylabel": "Объём мочи, л",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-56-008",
+  "file": "figures/DS-56-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Температура воздуха, °C",
+  "ylabel": "Потеря воды, мл",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-56-009",
+  "file": "figures/DS-56-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Масса груза, кг",
+  "ylabel": "Число сгибаний, раз",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-57-003",
+  "file": "figures/DS-57-003.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Масса груза, кг",
+  "ylabel": "Число сгибаний, раз",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-57-004",
+  "file": "figures/DS-57-004.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Недели тренировки",
+  "ylabel": "Сила кисти, кг",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-57-005",
+  "file": "figures/DS-57-005.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Недели тренировки",
+  "ylabel": "Сила кисти, кг",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-57-006",
+  "file": "figures/DS-57-006.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Масса груза, кг",
+  "ylabel": "Число сгибаний, раз",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-57-007",
+  "file": "figures/DS-57-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Стаж, лет",
+  "ylabel": "Время бега, с",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-57-008",
+  "file": "figures/DS-57-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "pie",
+  "xlabel": "",
+  "ylabel": "",
+  "legend": [
+   "основной обмен — 60 %",
+   "работа мышц — 25 %",
+   "пищеварение — 10 %",
+   "поддержание температуры — 5 %"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-57-009",
+  "file": "figures/DS-57-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Поколение",
+  "ylabel": "Средняя длина клюва, мм",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-61-011",
+  "file": "figures/DS-61-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Поколение",
+  "ylabel": "Средняя длина клюва, мм",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-61-012",
+  "file": "figures/DS-61-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Поколение",
+  "ylabel": "Средняя длина клюва, мм",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-61-013",
+  "file": "figures/DS-61-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год учёта",
+  "ylabel": "Средняя длина крыла, мм",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-61-014",
+  "file": "figures/DS-61-014.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год учёта",
+  "ylabel": "Средняя длина панциря, мм",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-61-015",
+  "file": "figures/DS-61-015.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Класс признака",
+  "ylabel": "Число особей, особей",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-61-016",
+  "file": "figures/DS-61-016.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Класс признака",
+  "ylabel": "Число особей, особей",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-61-017",
+  "file": "figures/DS-61-017.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Поколение",
+  "ylabel": "Средняя длина клюва, мм",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-61-018",
+  "file": "figures/DS-61-018.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Год учёта",
+  "ylabel": "Средняя длина лапы, мм",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-61-019",
+  "file": "figures/DS-61-019.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Класс признака",
+  "ylabel": "Число особей, особей",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-61-020",
+  "file": "figures/DS-61-020.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Длина клюва, мм",
+  "ylabel": "Число семян, шт.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-61-021",
+  "file": "figures/DS-61-021.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Учёт",
+  "ylabel": "Число выживших, особей",
+  "legend": [
+   "Вариант А",
+   "Вариант Б"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-62-016",
+  "file": "figures/DS-62-016.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Учёт",
+  "ylabel": "Число выживших, особей",
+  "legend": [
+   "Вариант А",
+   "Вариант Б"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-62-017",
+  "file": "figures/DS-62-017.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год наблюдения",
+  "ylabel": "Доля формы, %",
+  "legend": [
+   "Светлая",
+   "Тёмная"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-62-018",
+  "file": "figures/DS-62-018.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год наблюдения",
+  "ylabel": "Доля формы, %",
+  "legend": [
+   "Светлая",
+   "Тёмная"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-62-019",
+  "file": "figures/DS-62-019.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год",
+  "ylabel": "Доля устойчивых особей, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-62-020",
+  "file": "figures/DS-62-020.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год",
+  "ylabel": "Доля устойчивых особей, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-62-021",
+  "file": "figures/DS-62-021.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год",
+  "ylabel": "Среднее число яиц, яиц",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-62-022",
+  "file": "figures/DS-62-022.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год",
+  "ylabel": "Среднее число яиц, яиц",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-62-023",
+  "file": "figures/DS-62-023.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год",
+  "ylabel": "Среднее число яиц, яиц",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-62-024",
+  "file": "figures/DS-62-024.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год",
+  "ylabel": "Среднее число яиц, яиц",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-62-025",
+  "file": "figures/DS-62-025.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Учёт",
+  "ylabel": "Число выживших, особей",
+  "legend": [
+   "Вариант А",
+   "Вариант Б"
+  ],
+  "hatches": [
+   "",
+   "///"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-62-026",
+  "file": "figures/DS-62-026.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Год наблюдения",
+  "ylabel": "Доля формы, %",
+  "legend": [
+   "Светлая",
+   "Тёмная"
+  ],
+  "hatches": [
+   "",
+   "///"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-62-027",
+  "file": "figures/DS-62-027.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Год",
+  "ylabel": "Доля устойчивых особей, %",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-62-028",
+  "file": "figures/DS-62-028.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Год",
+  "ylabel": "Среднее число яиц, яиц",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-62-029",
+  "file": "figures/DS-62-029.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Год",
+  "ylabel": "Среднее число яиц, яиц",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-62-030",
+  "file": "figures/DS-62-030.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 22,
+    "rx": 40.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 22,
+    "rx": 24.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 22,
+    "rx": 14.4,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-62-031",
+  "file": "figures/DS-62-031.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 18,
+    "rx": 42.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 48.32,
+    "cy": 18,
+    "rx": 25.2,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 49.16,
+    "cy": 18,
+    "rx": 15.12,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-62-032",
+  "file": "figures/DS-62-032.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 22,
+    "rx": 36.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 44.56,
+    "cy": 22,
+    "rx": 21.6,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 45.28,
+    "cy": 22,
+    "rx": 12.96,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-62-033",
+  "file": "figures/DS-62-033.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 20,
+    "rx": 42.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 44.32,
+    "cy": 20,
+    "rx": 25.2,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 45.16,
+    "cy": 20,
+    "rx": 15.12,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-62-034",
+  "file": "figures/DS-62-034.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 44.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 45.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-62-035",
+  "file": "figures/DS-62-035.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 20,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 20,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 20,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-62-036",
+  "file": "figures/DS-62-036.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 18,
+    "rx": 36.0,
+    "ry": 14.0
+   },
+   {
+    "level": 50,
+    "cx": 44.56,
+    "cy": 18,
+    "rx": 21.6,
+    "ry": 8.4
+   },
+   {
+    "level": 80,
+    "cx": 45.28,
+    "cy": 18,
+    "rx": 12.96,
+    "ry": 5.04
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-62-037",
+  "file": "figures/DS-62-037.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 54.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 52.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 53.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-62-038",
+  "file": "figures/DS-62-038.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-62-039",
+  "file": "figures/DS-62-039.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 54.0,
+    "cy": 20,
+    "rx": 36.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 52.56,
+    "cy": 20,
+    "rx": 21.6,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 53.28,
+    "cy": 20,
+    "rx": 12.96,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-62-040",
+  "file": "figures/DS-62-040.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Доля тёмных стволов, %",
+  "ylabel": "Доля тёмных особей, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-62-041",
+  "file": "figures/DS-62-041.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "pie",
+  "xlabel": "",
+  "ylabel": "",
+  "legend": [
+   "форма А — 46 %",
+   "форма Б — 28 %",
+   "форма В — 18 %",
+   "форма Г — 8 %"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-62-042",
+  "file": "figures/DS-62-042.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Период",
+  "ylabel": "Число родов в учебном списке, родов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-63-010",
+  "file": "figures/DS-63-010.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Период",
+  "ylabel": "Число родов в учебном списке, родов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-63-011",
+  "file": "figures/DS-63-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Слой",
+  "ylabel": "Число отпечатков, шт.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-63-012",
+  "file": "figures/DS-63-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Слой",
+  "ylabel": "Число отпечатков, шт.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-63-013",
+  "file": "figures/DS-63-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Период",
+  "ylabel": "Число родов в учебном списке, родов",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-63-014",
+  "file": "figures/DS-63-014.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Глубина, м",
+  "ylabel": "Число отпечатков, шт.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-63-015",
+  "file": "figures/DS-63-015.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Эра",
+  "ylabel": "Доля кислорода, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-64-005",
+  "file": "figures/DS-64-005.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Вариант",
+  "ylabel": "Число видов аминокислот, видов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-64-006",
+  "file": "figures/DS-64-006.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Эра",
+  "ylabel": "Доля кислорода, %",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-64-007",
+  "file": "figures/DS-64-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Вариант",
+  "ylabel": "Число видов аминокислот, видов",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-64-008",
+  "file": "figures/DS-64-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "pie",
+  "xlabel": "",
+  "ylabel": "",
+  "legend": [
+   "метан — 40 %",
+   "аммиак — 20 %",
+   "водород — 30 %",
+   "водяной пар — 10 %"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-64-009",
+  "file": "figures/DS-64-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Форма",
+  "ylabel": "Объём мозговой коробки, см³",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-65-005",
+  "file": "figures/DS-65-005.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Слой",
+  "ylabel": "Число типов орудий, типов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-65-006",
+  "file": "figures/DS-65-006.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Слой",
+  "ylabel": "Число типов орудий, типов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-65-007",
+  "file": "figures/DS-65-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Форма",
+  "ylabel": "Объём мозговой коробки, см³",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-65-008",
+  "file": "figures/DS-65-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Объём коробки, см³",
+  "ylabel": "Число типов орудий, типов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-65-009",
+  "file": "figures/DS-65-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Сезон",
+  "ylabel": "Оценка плотности, особей/га",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-71-004",
+  "file": "figures/DS-71-004.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Сезон",
+  "ylabel": "Оценка плотности, особей/га",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-71-005",
+  "file": "figures/DS-71-005.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Звено",
+  "ylabel": "Число особей, особей/га",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-71-006",
+  "file": "figures/DS-71-006.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Ступень фактора",
+  "ylabel": "Выживаемость, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-72-006",
+  "file": "figures/DS-72-006.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Всходов лебеды, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-72-007",
+  "file": "figures/DS-72-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Всходов мятлика, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-72-008",
+  "file": "figures/DS-72-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Всходов подорожника, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-72-009",
+  "file": "figures/DS-72-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Освещённость, тыс. лк",
+  "ylabel": "Прироста элодеи, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-72-010",
+  "file": "figures/DS-72-010.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 18,
+    "rx": 36.0,
+    "ry": 14.0
+   },
+   {
+    "level": 50,
+    "cx": 44.56,
+    "cy": 18,
+    "rx": 21.6,
+    "ry": 8.4
+   },
+   {
+    "level": 80,
+    "cx": 45.28,
+    "cy": 18,
+    "rx": 12.96,
+    "ry": 5.04
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-72-011",
+  "file": "figures/DS-72-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 44.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 45.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-72-012",
+  "file": "figures/DS-72-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 22,
+    "rx": 40.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 22,
+    "rx": 24.0,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 22,
+    "rx": 14.4,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-72-013",
+  "file": "figures/DS-72-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 20,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 20,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 20,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-72-014",
+  "file": "figures/DS-72-014.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 18,
+    "rx": 42.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 48.32,
+    "cy": 18,
+    "rx": 25.2,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 49.16,
+    "cy": 18,
+    "rx": 15.12,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-72-015",
+  "file": "figures/DS-72-015.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 54.0,
+    "cy": 20,
+    "rx": 36.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 52.56,
+    "cy": 20,
+    "rx": 21.6,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 53.28,
+    "cy": 20,
+    "rx": 12.96,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-72-016",
+  "file": "figures/DS-72-016.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 50.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 48.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 49.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-72-017",
+  "file": "figures/DS-72-017.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 20,
+    "rx": 42.0,
+    "ry": 16.0
+   },
+   {
+    "level": 50,
+    "cx": 44.32,
+    "cy": 20,
+    "rx": 25.2,
+    "ry": 9.6
+   },
+   {
+    "level": 80,
+    "cx": 45.16,
+    "cy": 20,
+    "rx": 15.12,
+    "ry": 5.76
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-72-018",
+  "file": "figures/DS-72-018.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 46.0,
+    "cy": 22,
+    "rx": 36.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 44.56,
+    "cy": 22,
+    "rx": 21.6,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 45.28,
+    "cy": 22,
+    "rx": 12.96,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-72-019",
+  "file": "figures/DS-72-019.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "contour",
+  "xlabel": "Влажность, %",
+  "ylabel": "Температура, °C",
+  "legend": [
+   "20 %",
+   "50 %",
+   "80 %",
+   "0 % (вне контуров)"
+  ],
+  "hatches": [
+   "...",
+   "///",
+   "---"
+  ],
+  "zones": [
+   {
+    "level": 20,
+    "cx": 54.0,
+    "cy": 18,
+    "rx": 40.0,
+    "ry": 15.0
+   },
+   {
+    "level": 50,
+    "cx": 52.4,
+    "cy": 18,
+    "rx": 24.0,
+    "ry": 9.0
+   },
+   {
+    "level": 80,
+    "cx": 53.2,
+    "cy": 18,
+    "rx": 14.4,
+    "ry": 5.4
+   }
+  ],
+  "annotated": false,
+  "dataset_id": "DS-72-020",
+  "file": "figures/DS-72-020.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год",
+  "ylabel": "Численность, особей",
+  "legend": [
+   "заяц",
+   "рысь"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-73-010",
+  "file": "figures/DS-73-010.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год",
+  "ylabel": "Численность, особей",
+  "legend": [
+   "косуля",
+   "волк"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-73-011",
+  "file": "figures/DS-73-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, сут",
+  "ylabel": "Численность, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-73-012",
+  "file": "figures/DS-73-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, сут",
+  "ylabel": "Численность, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-73-013",
+  "file": "figures/DS-73-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Время, сут",
+  "ylabel": "Численность, усл. ед.",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-73-014",
+  "file": "figures/DS-73-014.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Год",
+  "ylabel": "Численность, особей",
+  "legend": [
+   "суслик",
+   "хорёк"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-73-015",
+  "file": "figures/DS-73-015.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Время, сут",
+  "ylabel": "Численность, усл. ед.",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-73-016",
+  "file": "figures/DS-73-016.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Год",
+  "ylabel": "Численность, особей",
+  "legend": [
+   "мышь",
+   "сова"
+  ],
+  "hatches": [
+   "",
+   "///"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-73-017",
+  "file": "figures/DS-73-017.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Год",
+  "ylabel": "Численность, особей",
+  "legend": [
+   "тушканчик",
+   "корсак"
+  ],
+  "hatches": [
+   "",
+   "///"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-73-018",
+  "file": "figures/DS-73-018.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Плотность жертвы, особей/га",
+  "ylabel": "Плотность хищника, особей/га",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-73-019",
+  "file": "figures/DS-73-019.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Месяц",
+  "ylabel": "Масса опада, г/м²",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-74-012",
+  "file": "figures/DS-74-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Месяц",
+  "ylabel": "Масса опада, г/м²",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-74-013",
+  "file": "figures/DS-74-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Звено",
+  "ylabel": "Число особей, особей/га",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-74-014",
+  "file": "figures/DS-74-014.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Звено",
+  "ylabel": "Число особей, особей/га",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-74-015",
+  "file": "figures/DS-74-015.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Месяц",
+  "ylabel": "Чистая первичная продукция, г/(м²·мес)",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-74-016",
+  "file": "figures/DS-74-016.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Месяц",
+  "ylabel": "Чистая первичная продукция, г/(м²·мес)",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-74-017",
+  "file": "figures/DS-74-017.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Месяц",
+  "ylabel": "Масса опада, г/м²",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-74-018",
+  "file": "figures/DS-74-018.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Месяц",
+  "ylabel": "Масса опада, г/м²",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-74-019",
+  "file": "figures/DS-74-019.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Звено",
+  "ylabel": "Число особей, особей/га",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-74-020",
+  "file": "figures/DS-74-020.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Месяц",
+  "ylabel": "Чистая первичная продукция, г/(м²·мес)",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-74-021",
+  "file": "figures/DS-74-021.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Месяц",
+  "ylabel": "Чистая первичная продукция, г/(м²·мес)",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-74-022",
+  "file": "figures/DS-74-022.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Биомасса растений, г/м²",
+  "ylabel": "Биомасса насекомых, г/м²",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-74-023",
+  "file": "figures/DS-74-023.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "pie",
+  "xlabel": "",
+  "ylabel": "",
+  "legend": [
+   "деревья — 62 %",
+   "кустарники — 14 %",
+   "травы — 16 %",
+   "подстилка — 8 %"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-74-024",
+  "file": "figures/DS-74-024.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Глубина, м",
+  "ylabel": "Число видов водорослей, видов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-75-011",
+  "file": "figures/DS-75-011.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Глубина, м",
+  "ylabel": "Число видов водорослей, видов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-75-012",
+  "file": "figures/DS-75-012.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Глубина, м",
+  "ylabel": "Число видов водорослей, видов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-75-013",
+  "file": "figures/DS-75-013.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Глубина, м",
+  "ylabel": "Число видов водорослей, видов",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-75-014",
+  "file": "figures/DS-75-014.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Площадь площадки, м²",
+  "ylabel": "Число видов трав, видов",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-75-015",
+  "file": "figures/DS-75-015.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Площадь площадки, м²",
+  "ylabel": "Число видов трав, видов",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-75-016",
+  "file": "figures/DS-75-016.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Широта, °",
+  "ylabel": "Число пород, видов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-75-017",
+  "file": "figures/DS-75-017.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "pie",
+  "xlabel": "",
+  "ylabel": "",
+  "legend": [
+   "лес — 40 %",
+   "луг — 25 %",
+   "болото — 15 %",
+   "водоём — 12 %",
+   "пашня — 8 %"
+  ],
+  "annotated": true,
+  "dataset_id": "DS-75-018",
+  "file": "figures/DS-75-018.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Ступень фактора",
+  "ylabel": "Выживаемость, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-76-005",
+  "file": "figures/DS-76-005.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Ступень фактора",
+  "ylabel": "Выживаемость, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-76-006",
+  "file": "figures/DS-76-006.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "line",
+  "xlabel": "Ступень фактора",
+  "ylabel": "Выживаемость, %",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-76-007",
+  "file": "figures/DS-76-007.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "bar",
+  "xlabel": "Ступень фактора",
+  "ylabel": "Выживаемость, %",
+  "legend": [],
+  "hatches": [
+   ""
+  ],
+  "annotated": true,
+  "dataset_id": "DS-76-008",
+  "file": "figures/DS-76-008.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ },
+ {
+  "kind": "scatter",
+  "xlabel": "Расстояние, м",
+  "ylabel": "Число видов, видов",
+  "legend": [],
+  "annotated": true,
+  "dataset_id": "DS-76-009",
+  "file": "figures/DS-76-009.png",
+  "font": "DejaVu Sans",
+  "dpi": 120,
+  "size_in": [
+   9.2,
+   5.6
+  ],
+  "monochrome": true
+ }
+]
